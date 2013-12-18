@@ -1,5 +1,5 @@
 Restauranteur::Application.routes.draw do
-  root "state_pages/index"
+  root "static_pages#index"
   resources :restaurants
 
   # The priority is based upon order of creation: first created -> highest priority.
