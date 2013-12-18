@@ -5,5 +5,6 @@ class CreateRestaurants < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :restaurants, :name, unique: true
   end
 end
